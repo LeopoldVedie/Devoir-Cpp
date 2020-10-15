@@ -1,16 +1,16 @@
 # Devoir-C-++
 Devoir de c++ to do list
 
-Compilation
+# Compilation
 
 Pour compiler le programme :
 g++ main.cpp fonction.cpp tasks.cpp TODO_list.cpp -o Todo_list
 
 
-Fonctionnalité
+# Fonctionnalité
 
 
-Fonction Add
+## Fonction Add
 
 Permet de rajouter une tâche. Elle prend jusqu’à 3 paramètres : --title, --description et --priority.
 
@@ -22,7 +22,7 @@ Exemple :
 .\Todo_list.exe add --title "faire les courses" --description "acheter du lait et des œufs" --priority "1" 
 
 
-Fonction Close 
+## Fonction Close 
 
 Permet de terminer une tâche avec son id.
 
@@ -33,7 +33,7 @@ Exemple :
 
 Permet de clore la première tâche de la to do list.  
 
-Fonction Change
+## Fonction Change
 
 Permet de modifier l’avancement, le titre, la priorité ou la description d’une tâche grâce à son identifiant.
 
@@ -45,14 +45,14 @@ Exemple :
 .\Todo_list.exe change –title "aller au supermarché" --id 0
 
 
-Fonction Comments
+## Fonction Comments
 
 Permet de commenter une tâche
 
 Exemple :
 .\Todo_list comments –comments "il faudrait le faire avant 16h" --id 0
 
-Fonction Print
+## Fonction Print
 
 Permet d’imprimer la to do list
 
@@ -66,14 +66,14 @@ Exemple :
 
 On peut donc renvoyer toutes les tâches ayant une priorité donnée en remplaçant le -1 par un autre entier
 
-Fonction del
+## Fonction del
 
 Permet de supprimer la to do list.
 
 Exemple :
 .\Todo_list del
 
-Fonction --file
+## Fonction --file
 
 Permet de dire dans quelle fichier to do list il faut faire les modifications et les ajouts (sinon ils se font automatiquement dans le fichier list.todo)
 
