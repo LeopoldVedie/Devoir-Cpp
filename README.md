@@ -1,8 +1,7 @@
 # Devoir-C-++
-devoir de c++ to do list
+Devoir de c++ to do list
 
 Compilation
-
 
 Pour compiler le programme :
 g++ main.cpp fonction.cpp tasks.cpp TODO_list.cpp -o Todo_list
@@ -67,14 +66,14 @@ Exemple :
 
 On peut donc renvoyer toutes les tâches ayant une priorité donnée en remplaçant le -1 par un autre entier
 
-	Fonction del
+Fonction del
 
 Permet de supprimer la to do list.
 
 Exemple :
 .\Todo_list del
 
-	Fonction --file
+Fonction --file
 
 Permet de dire dans quelle fichier to do list il faut faire les modifications et les ajouts (sinon ils se font automatiquement dans le fichier list.todo)
 
